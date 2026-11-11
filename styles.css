@@ -173,6 +173,11 @@ main {
   cursor: zoom-in;
 }
 
+.project-image.nths-certificate {
+  width: min(100%, 40rem);
+  max-width: 40rem;
+}
+
 .project-grid article .btn {
   margin-top: 0.7rem;
 }
@@ -239,6 +244,7 @@ main {
   #experience,
   #education,
   #certifications,
+  #society,
   #contact {
     grid-column: span 2;
   }
